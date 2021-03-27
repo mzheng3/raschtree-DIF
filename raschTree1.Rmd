@@ -1,0 +1,11 @@
+
+```{r}
+library("psychotree")
+
+data("SPISA", package = "psychotree")
+
+write.table(SPISA,file="mydata.csv",sep=",",quote=TRUE,row.names=FALSE) 
+
+
+```
+
